@@ -1,0 +1,17 @@
+{
+  "name": "mi-app-enfermeria",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.enfermeria.app",
+    "productName": "FARGES",
+    "win": {
+      "target": "nsis",
+      "icon":"icon.ico"
+    }
+  }
+}
